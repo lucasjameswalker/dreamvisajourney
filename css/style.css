@@ -1,0 +1,1401 @@
+/*================ 
+Template Name: Immigration Aim
+Description: Immigration Aim Landing Page Template
+Version: 1.0 
+Author: https://www.templatemonster.com/authors/techeshta
+=======================*/
+/********************** 
+[Table Of Content]
+
+01. General CSS
+02. Header
+03. Hero Section 
+04. About us Section
+05. Services Section
+06. About Immigration Investment Section
+07. Video Section
+08. Country Section
+09. Team Section
+10. Testimonials Section
+11. Blog Section
+12. Footer
+13. About us Page
+14. Services Page  
+15. country Page 
+16. Our Team Page
+17. FAQ Page
+18. Blog Page
+19. Single Blog Page
+20. Contact Page
+21. coming soon Page
+22. 404 Page
+
+
+**********************/
+/************************* 
+    01. General CSS
+*************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+:root {
+    --primary-font: "Mulish";
+    --secondary-font: "DM Sans";
+    --primary-color: #e02454;
+    --secondary-color: #18425a;
+    --black-color: #000;
+    --white-color: #fff;
+    --success-color: #333;
+    --white-smoke-color: #f7f5f5;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    color: var(--success-color);
+}
+
+p {
+    margin: 0px;
+    color: var(--success-color);
+    font-family: var(--primary-font);
+    padding: 0;
+}
+
+/*** header ***/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--secondary-font);
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 68px;
+    line-height: 78px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+/*** text-wrap ***/
+.text-wrap {
+    color: var(--primary-color);
+}
+
+/*** list ***/
+ul,
+ol {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+/*** link ***/
+a {
+    color: var(--success-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a,
+a:active,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--primary-color);
+    outline: none;
+    text-decoration: none;
+}
+
+/*** btn ***/
+.btn {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 14px 36px;
+    background: var(--secondary-color);
+    color: var(--white-color);
+    border: 0px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+    border: 0px;
+    border-radius: 8px;
+    color: var(--white-color);
+}
+
+/*** padding-top-bottom ***/
+.ptb-120 {
+    padding: 120px 0px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pt-110 {
+    padding-top: 110px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.pb-110 {
+    padding-bottom: 110px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+/*** margin-top-bottom ***/
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mb-90 {
+    margin-bottom: 90px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+/************************
+    02. Header 
+*************************/
+.header-wrap {
+    position: relative;
+}
+
+.header-wrap .navbar .navbar-nav .nav-item .nav-link {
+    padding: 10px;
+    margin: 0px 10px;
+    color: var(--success-color);
+}
+
+.header-wrap .navbar .navbar-nav .nav-item .nav-link:hover {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--primary-color);
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.header-wrap .navbar-toggler {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.header-wrap .navbar-toggler:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.header-wrap .navbar-nav .nav-item .nav-link a.active {
+    color: var(--primary-color) !important;
+}
+
+/************************
+    03. Hero Section
+*************************/
+.home-wrap {
+    background-image: url(../images/immigration-banner-image.png);
+    width: 100%;
+    max-height: 100%;
+    min-height: 800px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-size: cover;
+}
+
+.home-wrap .hero-container p {
+    width: 75%;
+}
+
+.home-wrap .hero-container .welcome-wrap {
+    padding: 10px 15px 10px 15px;
+    background-color: var(--primary-color);
+    border-radius: 10px 10px 10px 10px;
+    font-weight: 700;
+}
+
+/************************
+    04. About Us Section
+*************************/
+.about-wrap .about-content h2 {
+    color: var(--secondary-color);
+    width: 60%;
+}
+
+.about-wrap-image img {
+    width: 75%;
+}
+
+.about-wrap .about-content h4 {
+    color: var(--secondary-color);
+}
+
+.about-wrap .about-content img {
+    width: 100px;
+}
+
+.about-wrap .about-content P {
+    width: 90%;
+}
+
+/************************
+    05. Services Section 
+*************************/
+.services-wrap {
+    background-color: var(--white-smoke-color);
+}
+
+.services-wrap .services-wrap-content img {
+    width: 100px;
+}
+
+.services-wrap .services-wrap-content h2 {
+    color: var(--secondary-color);
+}
+
+.services-wrap .card {
+    padding: 30px 20px;
+    border-radius: 5px;
+    border: 0px;
+    width: 80%;
+}
+
+.services-wrap .card .card-icon i {
+    background-color: #e02454;
+    padding: 25px 28px;
+    width: 80px;
+    font-size: 28px;
+    color: var(--white-color);
+    border-radius: 40px;
+}
+
+.services-wrap .services-box .card .card-body .card-title {
+    color: var(--secondary-color);
+}
+.services-box .card:hover{
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.services-box .card:hover .card-body .card-title,
+.services-box .card:hover .card-body .card-text{ 
+    color: var(--white-color);
+}
+.services-box .card:hover .card-icon i{
+    background-color: var(--white-smoke-color);
+    color: var(--primary-color);
+}
+/************************
+    06. About Immigration Investment Section   
+*************************/
+.investment .investment-icon-list i {
+    color: var(--primary-color);
+    font-size: 18px;
+    line-height: 28px;
+    padding-right: 10px;
+}
+
+.investment .experience-wrap {
+    margin-top: -100px;
+    padding: 10px 30px 10px 30px;
+    background-color: var(--white-color);
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.investment .experience-wrap h2 {
+    color: var(--primary-color);
+}
+
+/************************
+    07. Video Section 
+*************************/
+.video-app {
+    background-image: url(../images/services-banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-app .video-text h2 {
+    width: 90%;
+}
+
+.video-app .video-icon-wrapper i {
+    padding: 27px 29px;
+    background-color: var(--primary-color);
+    font-size: 28px;
+    border-radius: 50px;
+    color: var(--white-color);
+}
+
+.video-app .video-icon-wrapper i:hover {
+    background-color: var(--secondary-color);
+}
+
+/************************
+    08. Country  Section 
+*************************/
+.country .country-text h2 {
+    width: 34%;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.country .country-card .card {
+    padding: 25px;
+    box-shadow: 15px 15px 35px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    border: 0px;
+}
+
+.country .country-card-wrap:hover .card {
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+}
+
+.country .country-card .card-img-top {
+    transition-duration: 0.3s;
+}
+
+.country .country-card .card-img-top:hover {
+    animation-name: card;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    cursor: pointer;
+    animation-iteration-count: infinite;
+}
+
+.country .country-card .card-img-top {
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.country .country-card .card-body h3 {
+    color: var(--primary-color);
+}
+
+.country .country-card-wrap {
+    margin: 0px 15px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes card {
+    25% {
+        transform: scale(1.1);
+    }
+
+    75% {
+        transform: scale(0.9);
+    }
+}
+
+/************************
+    09. Team Section
+*************************/
+.team-wrap {
+    background-color: var(--white-smoke-color);
+}
+
+.team-wrap .team-content h2 {
+    color: var(--secondary-color);
+}
+
+.team-wrap .card {
+    padding: 0px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.team-wrap .card .card-body h5 {
+    color: var(--primary-color);
+}
+
+.team-wrap .card {
+    margin: 0px 15px;
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+}
+
+.team-wrap .card:hover{
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+
+.team-wrap .card:hover .card-body .card-title,
+.team-wrap .card:hover .card-body .card-text{
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+
+
+/************************
+    10. Testimonials Section
+*************************/
+.testimonials-section {
+    background-image: url(../images/our-customers-bg-img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonials-section .testimonials-content h2 {
+    width: 50%;
+}
+
+.testimonials-section .testimonial-wrapper .testimonial-slide {
+    background-color: #f7f5f5;
+    border-bottom: 5px solid var(--primary-color);
+    border-radius: 8px;
+    border-color: var(--primary-color);
+    padding: 40px 20px 40px 20px;
+    margin: 0px 15px;
+    width: 50%;
+}
+
+.testimonials-section .testimonial-slide p {
+    font-size: 16px;
+    font-weight: 400;
+    list-style: 26px;
+    color: var(--success-color);
+    text-align: center;
+    font-style: italic;
+}
+
+.testimonials-section .testimonial-slide-wrap img {
+    width: 100px;
+    max-width: 100%;
+}
+
+.testimonials-section .testimonial-text h5 {
+    color: var(--secondary-color) !important;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0px 0px;
+    list-style-type: none;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots button {
+    display: block;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: var(--secondary-color);
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: var(--primary-color);
+}
+
+/************************
+    11. Blog Section
+*************************/
+.blog-section .blog-text h2 {
+    color: var(--secondary-color);
+    width: 50%;
+}
+
+.blog-section .blog-text-wrap .card {
+    border: 0px;
+}
+
+.blog-section .blog-text-wrap .card .card-body h4 {
+    color: var(--secondary-color);
+}
+.blog-section .blog-text-wrap .card .card-body a i{
+    padding-left: 5px;
+}
+
+/************************
+    12. Footer 
+*************************/
+.newsletter-wrap {
+    padding: 40px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.form-row .btn:hover {
+    background-color: var(--white-color) !important;
+    color: var(--secondary-color) !important;
+}
+
+.form-control {
+    color: var(--success-color);
+}
+
+.footer {
+    background-color: var(--white-smoke-color);
+    margin-top: -65px;
+}
+
+.footer .footer-wrap img {
+    width: 80%;
+}
+
+.footer .footer-wrap .site-info i {
+    background-color: var(--primary-color);
+    padding: 12px 14px;
+    color: var(--white-color);
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 18px;
+    list-style: 28px;
+}
+
+.footer .quick-menu ul li:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.footer .footer-wrap .site-info i:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-8px);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.footer .contact-list .icon-shape i {
+    padding: 11px 12px;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    margin-right: 10px;
+    color: var(--white-color);
+    font-size: 18px;
+}
+
+.footer .contact-list .icon-shape i:hover {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.footer-wrap-quick {
+    color: var(--secondary-color) !important;
+}
+
+.Immigration-footer-copyright {
+    background-color: var(--primary-color);
+}
+
+#contact-form-status {
+    color: var(--white-color);
+}
+
+/************************
+    13. AboutUS Page
+*************************/
+.about-hero-section {
+    background-image: url(../images/about-us-banner-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 350px;
+}
+
+.satisfied-section {
+    background-color: var(--white-smoke-color);
+}
+
+.satisfied-section-image img {
+    border-radius: 30px;
+}
+
+.satisfied-section-counter .item .count {
+    color: var(--secondary-color);
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 78px;
+}
+
+.satisfied-section-counter .item .text {
+    color: var(--secondary-color);
+}
+
+.satisfied-section-counter .item p {
+    width: 85%;
+    padding: 20px 0px;
+}
+
+.about-our-team{
+    background-color: var(--white-color);
+}
+
+.about-our-team .team-wrap{
+    background-color:var(--white-color);
+}
+
+.experience-wrap-count span{
+    font-size: 38px;
+    line-height: 54px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.counter-section-box .item {
+    background: var(--white-color);
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 3px solid var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.counter-section-box .item .count {
+    color: var(--primary-color);
+}
+
+.counter-section-box .counter-section-text span {
+    font-size: 38px;
+    line-height: 54px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.trusted-visa {
+    background-image: url(../images/faq-bg-img.png);
+    width: 50%;
+    padding: 120px 0px;
+    background-position: Right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.trusted-visa-text {
+    padding: 100px 50px;
+    margin: 0px 50px;
+    background-color: #E0245485;
+    border-radius: 20px;
+}
+
+.frequently-text {
+    padding: 0px 30px;
+}
+
+.frequently-text h2 {
+    color: var(--secondary-color);
+    width: 50%;
+}
+
+/************************
+    14. Services Page
+*************************/
+.services-hero-section {
+    background-image: url(../images/services-banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 350px;
+}
+
+.services-box-flip {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 5px 13px 2px rgba(0, 0, 0, 0.10);
+    background-color: var(--white-smoke-color);
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    backface-visibility: hidden;
+    transition: .5s ease-in-out;
+    transform-style: preserve-3d;
+    flex-direction: column;
+}
+
+.flipbox-front img {
+    border-radius: 8px;
+    width: 300px;
+}
+
+.flipbox-front {
+    transform: rotateY(0deg);
+}
+
+.flipbox-back h3 {
+    color: var(--secondary-color);
+}
+
+.flipbox-back h3 span {
+    font-style: italic;
+}
+
+.flipbox-back {
+    transform: rotateY(180deg);
+    padding: 30px;
+    background-color: var(--white-smoke-color);
+    width: 300px;
+    height: 300px;
+}
+
+.services-box-flip:hover .flipbox-front {
+    transform: rotateY(-180deg);
+}
+
+.services-box-flip:hover .flipbox-back {
+    transform: rotateY(0deg);
+}
+
+.visa-assessment-image {
+    background-image: url(../images/online-visa-img.png);
+    width: 50%;
+    height: 600px;
+    background-position: Right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.visa-assessment-text {
+    padding: 100px 0px 100px 50px;
+    background-color: var(--white-smoke-color);
+    position: relative;
+}
+
+.visa-assessment-text h2 {
+    color: var(--secondary-color);
+    width: 80%;
+}
+
+.visa-assessment-text p {
+    width: 80%;
+}
+
+.visa-assessment-list i {
+    color: var(--primary-color);
+}
+
+.services-wrap-services {
+    background-color: var(--white-color);
+}
+
+.visa-assessment-img img {
+    width: 25%;
+    position: absolute;
+    top: 27px;
+    right: 7%;
+    opacity: 0.5;
+}
+
+/************************
+    15. country Page
+*************************/
+.country-hero-section {
+    background-image: url(../images/country-banner-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 350px;
+}
+
+.country-support .investment-wrap h2 {
+    color: var(--secondary-color);
+    width: 73%;
+}
+
+.country-support .investment-image-box-wrapper img {
+    width: 100%;
+}
+
+.country-support .investment-wrap p {
+    width: 73%;
+}
+
+.country-support .country-icon-list .contact-list .icon-shape i {
+    font-size: 42px;
+    padding-right: 10px;
+    color: var(--primary-color);
+}
+
+.country-support .country-icon-list-text h5 {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.countries-section {
+    background-image: url(../images/countries-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+}
+
+.countries-section .countries-text {
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.countries-section h2 {
+    width: 53%;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.country-flag {
+    margin-top: -80px;
+}
+
+.country-flag .country-card-wrap {
+    width: 25% !important;
+}
+
+/************************
+    16. Our Team Page  
+*************************/
+.team-hero-section {
+    background-image: url(../images/our-team-banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 350px;
+}
+.team-content-wrap ,.team-wrap{
+    background-color: var(--white-color);
+}
+/************************
+    17. FAQ's Page
+*************************/
+.faq-hero-section {
+    background-image: url(../images/faq-hero-section-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 350px;
+}
+
+.faq-section .accordion-container .accordion-item {
+    background-color: var(--white-color);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
+}
+
+.faq-section .accordion-item .accordion-header {
+    background-color: var(--white-color);
+    color: var(--secondary-color);
+    padding: 25px 25px 15px 25px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.faq-section .accordion-item .accordion-header:hover {
+    color: var(--primary-color);
+}
+
+.active {
+    color: var(--primary-color) !important;
+}
+
+.faq-section .accordion-item .accordion-content {
+    background-color: var(--white-color);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
+
+.faq-section .accordion-item .accordion-content p {
+    margin: 0px 25px 25px 25px;
+}
+
+.faq-section .accordion-header .icon {
+    transition: transform 0.3s ease;
+    font-size: 34px;
+}
+
+.faq-section .active .icon {
+    transform: rotate(45deg);
+}
+
+/************************
+    18. Blog Page  
+*************************/
+.blog-hero-section {
+    background-image: url(../images/blog-banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 350px;
+}
+
+/************************
+    19. Single Page  
+*************************/
+.single-hero-section {
+    background-image: url(../images/single-blog-images.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 350px;
+}
+
+.single-hero-section .single-hero-title {
+    width: 70%;
+    text-align: center;
+}
+
+.single-blog .blog-details-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.related-box {
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px;
+}
+
+.blog-box h4 {
+    color: var(--secondary-color);
+}
+
+.blog-box .related-box .card-img-top {
+    width: 30%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.related-box .site-info i:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-8px);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.related-box .site-info i {
+    background-color: var(--primary-color);
+    padding: 12px 14px;
+    color: var(--white-color);
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 18px;
+    list-style: 28px;
+}
+
+/************************
+    20. Contact Page  
+*************************/
+.contact-hero-section {
+    background-image: url(../images/contact-banner-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 350px;
+}
+
+.contact-details .contact-details-text h2 {
+    color: var(--secondary-color);
+}
+
+.contact-details .contact-details-text p {
+    width: 40%;
+}
+
+.contact-details .contact-icon-box .card {
+    padding: 30px 20px 30px 20px;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    border-color: var(--e-global-color-accent);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details .contact-icon-box .card:hover {
+    border-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.contact-details .contact-icon-box .card i {
+    background-color: var(--primary-color);
+    padding: 26px 28px;
+    display: inline-block;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 50px;
+    line-height: 28px;
+    color: var(--white-smoke-color);
+}
+
+.contact-details .contact-icon-box .card .card-body h4 {
+    color: var(--secondary-color);
+}
+
+.contact-section .contact-form-wrap .contact-form {
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 40px 40px 40px 40px;
+    border-radius: 15px;
+}
+
+.contact-form-wrap .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form-wrap .form-group .btn {
+    display: inline-block;
+    width: 100%;
+}
+
+.contact-form-wrap .form-group .btn:hover {
+    display: inline-block;
+    width: 100%;
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+}
+
+/************************
+    21. Coming Soon Page  
+*************************/
+.coming-hero-section {
+    background-image: url(../images/our-team-banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+
+.coming-hero-section .coming-hero-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-section iframe {
+    width: 100%;
+    height: 450px;
+}
+
+.coming-hero-section .coming-hero-title h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 108px;
+    line-height: 108px;
+}
+
+.coming-hero-section .coming-hero-title p {
+    width: 35%;
+    color: var(--white-color);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.coming-hero-section .coming-hero-title h1 span {
+    font-style: italic;
+}
+
+.coming-hero-section .contact-form .form-control {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.coming-hero-section .contact-form .form-row .btn {
+    border-radius: 0px 10px 10px 0px;
+    background-color: var(--primary-color);
+}
+
+.coming-hero-section .contact-form .form-row .btn:hover {
+    background-color: var(--secondary-color) !important;
+    color: var(--white-color) !important;
+}
+
+/************************
+    22. 404 Page
+*************************/
+.error-hero-section {
+    background-image: url(../images/404page.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+
+.error-hero-title h1 {
+    font-family: var(--secondary-font);
+    font-size: 228px;
+    font-weight: 700;
+    line-height: 178px;
+}
+
+.coming-hero-title p {
+    width: 30%;
+}

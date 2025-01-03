@@ -1,0 +1,578 @@
+/*================
+Template Name: Immigration Aim
+Description: Immigration Aim Landing Page Template
+Version: 1.0
+Author: Author: https://www.templatemonster.com/authors/techeshta
+=======================*/
+
+
+/************************ 
+    @media 1024px
+*************************/
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 54px;
+        line-height: 54px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    h3 {
+        font-size: 22px;
+        list-style: 32px;
+    }
+
+    .header-wrap .navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px;
+        margin: 0px 0px;
+    }
+
+    .about-wrap .about-content h2 {
+        width: 80%;
+    }
+
+    .about-wrap .about-content P {
+        width: 105%;
+    }
+
+    .services-wrap .card {
+        padding: 30px 20px;
+        border-radius: 5px;
+        border: 0px;
+        width: 90%;
+    }
+
+    .investment-image-box-wrapper img {
+        width: 96%;
+    }
+
+    .country-card-wrap {
+        margin: 0px 10px;
+    }
+
+    .blog-section .blog-text h2 {
+        width: 80%;
+    }
+
+    .contact-details .contact-details-text p {
+        width: 60%;
+    }
+
+    .coming-hero-section .coming-hero-title p {
+        width: 80%;
+    }
+
+    .country-support .investment-wrap h2 {
+        width: 100%;
+    }
+
+    .country-support .investment-wrap p {
+        width: 100%;
+    }
+
+    .flipbox-back {
+        height: 296px;
+    }
+
+    .visa-assessment-text {
+        padding: 100px 0px 100px 20px;
+        background-color: var(--white-smoke-color);
+    }
+
+    .trusted-visa-text {
+        padding: 50px 20px;
+        margin: 0px 20px;
+    }
+
+    .error-hero-title p {
+        width: 100%;
+    }
+}
+
+/************************ 
+    @media 991px
+*************************/
+@media (max-width: 991px) {
+    h1 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .pt-md-80 {
+        padding-top: 80px;
+    }
+
+    .pb-md-80 {
+        padding-bottom: 80px;
+    }
+
+    .pt-20 {
+        padding-top: 10px;
+    }
+
+    .header-wrap .navbar-collapse {
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 100%;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin: 0px 0px;
+        color: #fff;
+    }
+
+    .about-wrap .about-content h2 {
+        width: 80%;
+    }
+
+    .about-wrap .about-content P {
+        width: 100%;
+    }
+
+    .services-wrap .card {
+        width: 91%;
+    }
+
+    .investment .experience-wrap {
+        padding: 10px 10px;
+    }
+
+    .country .country-card-wrap {
+        width: 40%;
+    }
+
+    .country .country-card {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer .footer-wrap img {
+        width: 40%;
+    }
+
+    .newsletter-wrap {
+        padding: 20px;
+    }
+
+    .about-wrap-image img {
+        width: 100%;
+    }
+
+    .contact-details .contact-details-text p {
+        width: 80%;
+    }
+
+    .contact-details .contact-icon-box .card i {
+        padding: 24px 26px;
+        font-size: 22px;
+    }
+
+    .countries-section {
+        padding: 80px 0px;
+    }
+
+    .country-flag .country-card-wrap {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .country-flag .country-card-wrap {
+        width: 22% !important;
+    }
+
+    .country-flag .country-card .card {
+        padding: 15px;
+    }
+
+    .services-box-flip,
+    .flipbox-back {
+        height: 300px;
+    }
+
+    .visa-assessment-text {
+        padding: 80px 0px 80px 20px;
+        background-color: var(--white-smoke-color);
+    }
+
+    .visa-assessment-image {
+        background-position: center center;
+    }
+}
+
+/************************ 
+    @media 540px
+*************************/
+@media (max-width: 540px) {
+    .header-wrap .navbar-collapse {
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 115%;
+    }
+
+    .country-flag .country-card-wrap {
+        width: 45% !important;
+    }
+
+    .testimonials-section .testimonials-content h2 {
+        width: 80%;
+    }
+
+    .country .country-text h2 {
+        width: 80%;
+    }
+
+    .country-flag {
+        margin-top: -50px;
+    }
+
+    .countries-section h2 {
+        width: 100%;
+    }
+
+    .team-wrap .card {
+        margin: 0px 0px;
+        border-radius: 5px;
+        border: 0px;
+    }
+
+    .coming-hero-section .contact-form .form-control {
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .coming-hero-section .contact-form .form-row .btn {
+        border-radius: 10px;
+    }
+
+    .about-wrap-image img {
+        width: 85%;
+    }
+}
+
+/************************ 
+    @media 480px
+*************************/
+@media (max-width: 480px) {
+    .mt-md-60 {
+        margin-top: 40px;
+    }
+
+    .pt-sm-50 {
+        padding-top: 50px;
+    }
+
+    .pb-sm-50 {
+        padding-bottom: 50px;
+    }
+
+    .countries-section {
+        padding: 100px 0px;
+    }
+
+    .visa-assessment-image {
+        width: 100%;
+    }
+
+    .header-wrap .navbar img {
+        width: 80%;
+        max-width: 100%;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin: 0px;
+    }
+
+    .header-wrap .navbar-collapse {
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 115%;
+    }
+
+    .footer .footer-wrap img {
+        width: 80%;
+    }
+
+    .country .country-text h2 {
+        width: 80%;
+    }
+
+    .home-wrap .hero-container p {
+        width: 100%;
+    }
+
+    .form-control {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .satisfied-section-image img {
+        width: 100%;
+    }
+
+    .satisfied-section-counter .item p {
+        width: 100%;
+    }
+
+    .testimonials-section .testimonials-content h2 {
+        width: 100%;
+    }
+
+    .countries-section h2 {
+        width: 100%;
+    }
+
+    .trusted-visa {
+        width: 95%;
+    }
+
+    .country-flag .country-card-wrap {
+        width: 44% !important;
+    }
+
+    .team-wrap .card {
+        margin: 0px 0px;
+        border-radius: 5px;
+        border: 0px;
+    }
+
+    .single-hero-section .single-hero-title {
+        width: 100%;
+    }
+
+    .contact-details .contact-details-text p {
+        width: 100%;
+    }
+
+    .error-hero-title h1 {
+        font-size: 150px;
+        line-height: 160px;
+    }
+}
+
+/************************ 
+    @media 375px
+*************************/
+@media (max-width: 375px) {
+    h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .mt-md-60 {
+        margin-top: 40px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin: 0px;
+    }
+
+    .header-wrap .navbar-collapse {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 115%;
+    }
+
+    .header-wrap .navbar img {
+        width: 60%;
+        max-width: 100%;
+    }
+
+    .home-wrap .hero-container p {
+        width: 100%;
+    }
+
+    .home-wrap {
+        max-height: 100%;
+        min-height: 600px;
+    }
+
+    .hero-container p {
+        width: 100%;
+    }
+
+    .about-wrap-image img {
+        width: 100%;
+    }
+
+    .services-wrap .services-wrap .card {
+        padding: 30px 20px;
+        border-radius: 5px;
+        border: 0px;
+        width: 100%;
+    }
+
+    .services-wrap .card {
+        padding: 30px 20px;
+        border-radius: 5px;
+        border: 0px;
+        width: 100%;
+    }
+
+    .investment .experience-wrap {
+        display: none;
+    }
+
+    .investment-image-box-wrapper img {
+        width: 96%;
+    }
+
+    .team-wrap .card {
+        margin: 0px 0px;
+        border-radius: 5px;
+        border: 0px;
+    }
+
+    .testimonials-section .testimonials-content h2 {
+        width: 100%;
+    }
+
+    .country .country-text h2 {
+        width: 100%;
+    }
+
+    .country .country-card-wrap {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .blog-section .blog-text {
+        color: var(--secondary-color);
+        width: 100%;
+    }
+
+    .blog-section .blog-text-btn {
+        display: none;
+    }
+
+    .footer .footer-wrap img {
+        width: 80%;
+    }
+
+    .form-control {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contact-hero-section,
+    .blog-hero-section,
+    .team-hero-section,
+    .faq-hero-section,
+    .about-hero-section,
+    .single-hero-section,
+    .services-hero-section {
+        height: 300px;
+    }
+
+    .contact-section .contact-form-wrap .contact-form {
+        padding: 20px;
+    }
+
+    .coming-hero-section .coming-hero-title h1 {
+        font-size: 88px;
+        line-height: 88px;
+    }
+
+    .coming-hero-section .coming-hero-title p {
+        width: 100%;
+    }
+
+    .coming-hero-section .contact-form .form-control {
+        border-radius: 10px;
+    }
+
+    .coming-hero-section .contact-form .form-row .btn {
+        border-radius: 10px;
+    }
+
+    .country-flag .country-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .country-flag .country-card-wrap {
+        width: 100% !important;
+    }
+
+    .visa-assessment-image {
+        width: 100%;
+    }
+
+    .satisfied-section-image img {
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    .satisfied-section-counter .item p {
+        width: 100%;
+    }
+
+    .counter-section-box .counter-section-text span {
+        font-size: 28px;
+    }
+
+    .trusted-visa {
+        padding: 50px 0px;
+        width: 95%;
+    }
+
+    .trusted-visa-text {
+        padding: 50px 20px;
+        margin: 0px 20px;
+    }
+
+    .single-hero-section .single-hero-title {
+        width: 100%;
+    }
+
+    .error-hero-title h1 {
+        font-size: 160px;
+        line-height: 160px;
+    }
+
+    .coming-hero-title p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-wrap .navbar img {
+        width: 80%;
+        max-width: 100%;
+    }
+
+    .coming-hero-section .coming-hero-title h1 {
+        font-size: 80px;
+        line-height: 88px;
+    }
+}
